@@ -15,7 +15,7 @@ function App() {
 
   return (
     <>
-    <Header />
+     <Header />
       <Routes>
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
