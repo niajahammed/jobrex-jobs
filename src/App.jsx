@@ -7,15 +7,15 @@ import JobDetail from "./pages/JobDetail"
 import Onboarding from "./pages/Onboarding"
 import Applicant from "./pages/Applicant"
 import PostJobs from "./pages/PostJobs"
-import Header from "./components/Header"
-import Footer from "./components/Footer"
+import Header from "./layout/Header"
+import Footer from "./layout/Footer"
 
 function App() {
   
 
   return (
     <>
-    <Header />
+     <Header />
       <Routes>
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
